@@ -5,8 +5,6 @@ import * as cheerio from 'cheerio'
 const app = express()
 const port = 3000
 
-// Rest of your code...
-
 
 let processedUrls = []
 
