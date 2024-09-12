@@ -45,6 +45,12 @@ app.get('/images', async (req, res)=>{
     }
 })
 
+//Endpoint pour récupérer les urls des images traitées
+
+app.get('/urls', (req, res)=>{
+    return res.json({processedUrls})
+})
+
 app.listen(port, ()=>{
     console.log('Serveur démarré !!');
 })
